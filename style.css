@@ -1,0 +1,94 @@
+@import url(reset.css);
+
+body {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #200405;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----------------------------About---------------------------------*/
+
+h1, h2, #contact h3, h4, nav, button {
+    font-family: 'Pridi', serif;
+}
+
+h1, h2, #contact h3, #social h3, #social span {
+    text-transform: uppercase;
+}
+
+h1, 
+h2, 
+#contact h3, 
+#social h3, 
+#about article p:first-of-type,
+.green-tea li:nth-of-type(2),
+#social span{
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 37px;
+}
+
+#contact h3 {
+    font-size: 28px;
+}
+
+#social h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 80px;
+    color: 
+}
+
+nav {
+    font-size: 18px;
+}
+
+button {
+    font-size: 40px;
+}
+
+
+.first-article p,
+#social p,
+button {
+    color: #ffcd90;
+}
+
+.second-article p,
+.third-article p,
+h4 {
+    color: #645a5a;
+}
+
+.first-article h4, 
+#social h3, 
+nav a, 
+a:link,
+a:visited,
+a:active {
+    color: #fff;
+}
+
+.green-tea li:nth-of-type(2){
+    color: #92353c;
+}
+
+
+
+
