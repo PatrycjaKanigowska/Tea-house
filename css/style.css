@@ -1,4 +1,4 @@
-@import url(reset.css);
+@import url(../css/reset.css);
 
 body {
     width: 100%;
@@ -99,11 +99,11 @@ header, footer {
 /*----------------------------Images---------------------------------*/
 
 #hero {
-    background-image: url(img/bg1.jpg);
+    background-image: url(../img/bg1.jpg);
 }
 
 .banner {
-    background-image: url(img/zdjeciewtle.png);
+    background-image: url(../img/zdjeciewtle.png);
     height: 1076px;
     position: relative;
 }
