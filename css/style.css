@@ -18,6 +18,16 @@ a {
     text-decoration: none;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 /*----------------------------Fonts---------------------------------*/
 
 h1, h2, #contact h3, h4, nav, button {
@@ -147,6 +157,16 @@ nav img {
 #hero,
 footer {
     text-align: center;   
+}
+
+#about figure {
+    float: right;
+    width: 175px;
+}
+
+#about article {
+    max-width: 800px;
+    float: left;
 }
 
 /*----------------------------Styles---------------------------------*/
