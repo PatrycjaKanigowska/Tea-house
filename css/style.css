@@ -163,8 +163,9 @@ header, footer {
 }
 
 #offer article {
-    padding: 0 42px;
-
+    background: url(../img/ramkamenu.png) center top no-repeat ;
+    padding: 110px 30px 180px;
+    margin-top: 30px;
 }
 
 /*----------------------------Position---------------------------------*/
