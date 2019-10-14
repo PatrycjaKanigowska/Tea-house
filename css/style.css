@@ -157,6 +157,7 @@ header, footer {
 
 .banner {
     background-image: url(../img/zdjeciewtle.png);
+    background-color: #83603f;
     height: 1076px;
     position: relative;
 }
