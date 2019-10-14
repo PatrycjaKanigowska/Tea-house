@@ -162,8 +162,9 @@ header, footer {
 }
 
 #offer article {
-    background: url(../img/ramkamenu.png) center top no-repeat ;
-    padding: 110px 30px 180px;
+    background: url(../img/ramkamenu.png) center top no-repeat;
+    background-size: 90%;
+    padding: 110px 30px 160px;
     margin-top: 30px;
 }
 
@@ -207,12 +208,15 @@ footer {
 #about figure {
     float: right;
     width: 175px;
+    position: relative;
+    top: 160px;
+    right: 180px;
 }
 
 #about article {
     max-width: 800px;
     float: left;
-    padding: 94px 0 55px 102px;   
+    padding: 94px 0 235px 102px;   
 }
 
 /*----------------------------Styles---------------------------------*/
@@ -267,15 +271,16 @@ footer {
 
 #social h3 {
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #social img {
-    padding: 20px;
+    padding: 10px;
 }
 
 #social p {
+    padding-bottom: 20px;
     padding-top: 10px;
-    padding-bottom: 40px;
 }
 
 /*----------------------------Form---------------------------------*/
@@ -296,11 +301,14 @@ button {
     cursor: pointer;
     background-color: #8c8c8c;
     font-weight: lighter;
-    padding: 4px 42px; 
+    padding: 4px 42px;
+    z-index: 100;
+    position: relative;
+    bottom: 55px;
+    left: 215px;
 }
 
 #contact {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
 }
 
